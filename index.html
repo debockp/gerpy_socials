@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0a0e">
+  <title>GERPY STREET BAND — Aperçu à valider</title>
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page">
+    <p class="status">● MAQUETTE À VALIDER PAR LE GROUPE</p>
+
+    <header class="hero">
+      <img class="logo" alt="Logo Gerpy Street Band" src="assets/img/logo.png">
+      <h1>GERPY STREET BAND</h1>
+      <p class="tag">La musique qui fait vibrer vos événements !</p>
+      <div class="place">⌖ Gerpinnes · Belgique</div>
+    </header>
+
+    <section class="photo">
+      <div class="photo-notes">♫ ♪ ♬</div>
+      <strong>Notre photo de groupe ici</strong>
+      <small>Photo d’ambiance à choisir ensemble</small>
+    </section>
+
+    <p class="intro">Retrouvez-nous sur les réseaux !</p>
+
+    <nav>
+      <a class="social" href="https://www.facebook.com/share/1MLo2GvWWs/?mibextid=wwXIfr" target="_blank" rel="noopener">
+        <span class="symbol">f</span>
+        <span><strong>Facebook</strong><small>Gerpy Street Band</small></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="social" href="https://instagram.com/gerpystreetband_officiel" target="_blank" rel="noopener">
+        <span class="symbol">◎</span>
+        <span><strong>Instagram</strong><small>@gerpystreetband_officiel</small></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="social" href="https://www.tiktok.com/@gerpy.street.band" target="_blank" rel="noopener">
+        <span class="symbol">♪</span>
+        <span><strong>TikTok</strong><small>@gerpy.street.band</small></span>
+        <span class="arrow">↗</span>
+      </a>
+    </nav>
+
+    <button class="toggle" type="button" id="toggle" aria-expanded="false" aria-controls="booking">▦ &nbsp; Demander une prestation &nbsp;⌄</button>
+
+    <section class="panel" id="booking" hidden>
+      <p>Présentez-nous votre événement en quelques instants.</p>
+      <form id="form">
+        <label for="name">Nom de l'organisateur *</label>
+        <input id="name" name="name" required autocomplete="name">
+
+        <label for="email">Adresse e-mail *</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+
+        <label for="phone">Téléphone *</label>
+        <input id="phone" name="phone" type="tel" required autocomplete="tel">
+
+        <label for="date">Date de l'événement *</label>
+        <input id="date" name="date" type="date" required>
+
+        <label for="place">Lieu de l'événement *</label>
+        <input id="place" name="place" required>
+
+        <label for="kind">Type d'événement</label>
+        <select id="kind" name="kind">
+          <option>Fête privée</option>
+          <option>Festival</option>
+          <option>Carnaval</option>
+          <option>Mariage</option>
+          <option>Événement d'entreprise</option>
+          <option>Autre</option>
+        </select>
+
+        <label for="details">Informations complémentaires</label>
+        <textarea id="details" name="details" placeholder="Horaires, contexte, demandes particulières..."></textarea>
+
+        <button class="submit" type="submit">✉ &nbsp; Préparer la demande</button>
+        <p class="note">Version de validation : ce bouton ouvre un e-mail prérempli. L'envoi automatique sera configuré après validation.</p>
+      </form>
+    </section>
+
+    <footer>
+      <p>☎ &nbsp;<a href="tel:+32498572803">+32 498 57 28 03</a></p>
+      <p>✉ &nbsp;<a href="mailto:gerpystreetbandgerpinnes@gmail.com">gerpystreetbandgerpinnes@gmail.com</a></p>
+      <small>© GERPY STREET BAND · Maquette non publiée</small>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

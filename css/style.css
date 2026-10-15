@@ -1,0 +1,255 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  color: #f9f5f8;
+  background: #09090d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 22px 14px 40px;
+  background: radial-gradient(ellipse at 90% 0%, #34152b 0, transparent 42%), #09090d;
+}
+
+.page {
+  max-width: 430px;
+  margin: auto;
+}
+
+.status {
+  color: #e9bfd5;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: .1em;
+  margin: 0 0 16px;
+}
+
+/* En-tête */
+.hero {
+  background: linear-gradient(145deg, #211620, #141218 60%);
+  border: 1px solid #3a2936;
+  border-radius: 24px;
+  text-align: center;
+  padding: 28px 18px 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 80px;
+  border: 3px solid #e72c91;
+  border-radius: 50%;
+  transform: rotate(-24deg);
+  right: -160px;
+  top: -18px;
+  opacity: .45;
+}
+
+.logo {
+  display: block;
+  width: 185px;
+  height: 165px;
+  object-fit: contain;
+  margin: auto auto 8px;
+}
+
+h1 {
+  color: #ff399f;
+  font-size: 27px;
+  letter-spacing: .055em;
+  margin: 5px 0 8px;
+  font-weight: 900;
+}
+
+.tag {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.place {
+  font-size: 12px;
+  color: #c5b4c2;
+}
+
+/* Emplacement photo de groupe */
+.photo {
+  height: 170px;
+  border-radius: 19px;
+  border: 1px dashed #865270;
+  background: linear-gradient(130deg, #291c2b, #16131b);
+  margin: 18px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 9px;
+  color: #e9bed6;
+}
+
+.photo small {
+  color: #ad9eab;
+}
+
+.photo-notes {
+  font-size: 30px;
+}
+
+.intro {
+  text-align: center;
+  color: #e7dce4;
+  font-size: 14px;
+  margin: 20px 0 12px;
+}
+
+/* Liens réseaux sociaux */
+.social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  background: #211b26;
+  border: 1px solid #382b39;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.social:hover {
+  background: #342337;
+}
+
+.social .symbol {
+  color: #ff4da8;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.social strong {
+  display: block;
+  font-size: 15px;
+}
+
+.social small {
+  display: block;
+  color: #b9abb8;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.arrow {
+  margin-left: auto;
+  color: #ff4da8;
+}
+
+/* Boutons */
+.toggle,
+.submit {
+  width: 100%;
+  background: #e81d8e;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  padding: 17px;
+  font-size: 15px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.toggle {
+  margin-top: 17px;
+}
+
+.toggle:hover,
+.submit:hover {
+  background: #fc39a4;
+}
+
+/* Formulaire de demande de prestation */
+.panel {
+  margin-top: 12px;
+  padding: 18px 16px;
+  border: 1px solid #6b3556;
+  border-radius: 17px;
+  background: #1d1720;
+}
+
+.panel[hidden] {
+  display: none;
+}
+
+.panel p {
+  font-size: 13px;
+  text-align: center;
+  color: #dbc7d4;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: #f5d6e8;
+  margin: 13px 0 6px;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 13px;
+  background: #110f15;
+  border: 1px solid #4c3a4b;
+  border-radius: 10px;
+  color: white;
+  font: inherit;
+  font-size: 14px;
+  color-scheme: dark;
+}
+
+textarea {
+  min-height: 85px;
+  resize: vertical;
+}
+
+.submit {
+  margin-top: 17px;
+}
+
+.note {
+  font-size: 11px !important;
+  color: #b7a4b1 !important;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  border-top: 1px solid #44313f;
+  margin-top: 24px;
+  padding-top: 18px;
+  font-size: 13px;
+}
+
+footer a {
+  color: #f4d1e4;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer small {
+  color: #958694;
+}
